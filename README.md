@@ -8,7 +8,7 @@ Este proyecto simula el comportamiento de un flujo vehicular en una vía de un s
 * **Análisis de Datos:** Calcula automáticamente la caída de velocidad y el tiempo de recuperación del sistema.
 
 ## Visualización
-![Simulación de Tráfico](/results/simulacion.gif)
+![Simulación de Tráfico](/results/trafico_sim.gif)
 
 ## Requisitos
 Necesitas tener instalado [Julia](https://julialang.org/) y las siguientes librerías:
