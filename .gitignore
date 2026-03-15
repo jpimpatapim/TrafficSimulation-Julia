@@ -1,0 +1,6 @@
+.DS_Store
+*.jl.cov
+*.jl.mem
+manifest.toml
+# Si no quieres que el gif se actualice en cada commit:
+# results/simulacion.gif
