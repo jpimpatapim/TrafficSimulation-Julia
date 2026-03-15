@@ -17,15 +17,17 @@ Necesitas tener instalado [Julia](https://julialang.org/) y las siguientes libre
 * `Printf`
 * `Statistics`
 
-	```julia
-	using Pkg
-	Pkg.activate(".")
-	Pkg.instantiate()
-
-
 ## Cómo ejecutar
 1. Clona este repositorio.
 2. Abre la terminal en la carpeta del proyecto.
 3. Ejecuta:
    ```bash
    julia src/simulacion_trafico.jl
+
+## Instalar dependencias
+Para ejecutar esta simulación con las versiones exactas de las librerías, clona el repositorio y en la consola de Julia ejecuta:
+
+```julia
+	using Pkg
+	Pkg.activate(".")
+	Pkg.instantiate()
